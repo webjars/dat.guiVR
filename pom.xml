@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>dat.guiVR</artifactId>
-    <version>0f92945-SNAPSHOT</version>
+    <version>0f92945</version>
     <name>dat.GUI VR</name>
     <description>WebJar for dat.GUI VR</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/webjars/dat.guiVR</url>
         <connection>scm:git:https://github.com/webjars/dat.guiVR.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/dat.guiVR.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>dat.guiVR-0f92945</tag>
     </scm>
 
     <developers>
