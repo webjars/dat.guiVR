@@ -10,8 +10,8 @@
 
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
-    <artifactId>datguivr</artifactId>
-    <version>0.1</version>
+    <artifactId>dat.guiVR</artifactId>
+    <version>0f92945-SNAPSHOT</version>
     <name>dat.GUI VR</name>
     <description>WebJar for dat.GUI VR</description>
     <url>http://webjars.org</url>
@@ -25,7 +25,7 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/webjars/mithril</url>
+        <url>https://github.com/webjars/dat.guiVR</url>
         <connection>scm:git:https://github.com/webjars/dat.guiVR.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/dat.guiVR.git</developerConnection>
         <tag>HEAD</tag>
@@ -45,7 +45,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>https://raw.githubusercontent.com/dataarts/dat.guiVR/master</upstream.url>
+        <upstream.commit>0f92945fe6d2566f749266843199750494e61005</upstream.commit>
+        <upstream.url>https://raw.githubusercontent.com/dataarts/dat.guiVR/${upstream.commit}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}/</destDir>
         <requirejs>
             {
